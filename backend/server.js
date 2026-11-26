@@ -1,6 +1,12 @@
 const express = require("express");
 const knex = require("knex");
 const app = express();
+const cors = require("cors");
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+  }),
+);
 app.use(express.json());
 const PORT = 3000;
 

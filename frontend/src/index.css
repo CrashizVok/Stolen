@@ -1,0 +1,16 @@
+.assets-container {
+  display: grid;
+  grid-template-columns: repeat(2);
+  gap: 20px;
+  max-width: 1000px;
+  margin: 30px;
+  padding: 16px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+}
